@@ -1,0 +1,47 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://assets-global.website-files.com/63d9ce8458edcf65610de116/64c9252fe3c9acfd21bca745_ocr.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7; /* Set a light background color */
+  }
+  
+  .container {
+    text-align: center;
+    background-color: #ffffff; /* Set a white background for the container */
+    padding: 40px; /* Increase padding for more spacing inside the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 80%; /* Set width to 80% of the viewport width */
+    max-width: 600px; /* Set maximum width to 600px */
+    margin: 20px; /* Add margin for spacing around the container */
+  }
+  
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .container button {
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007bff; /* Blue button color */
+    color: #ffffff; /* White text color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

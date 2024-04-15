@@ -1,0 +1,71 @@
+/* TeacherUpload.css */
+
+.upload-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .upload-container h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .upload-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .upload-input {
+    display: none;
+  }
+  
+  .upload-label {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-label:hover {
+    background-color: #0056b3;
+  }
+  
+  .uploaded-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .action-buttons button {
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-buttons button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

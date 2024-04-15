@@ -1,0 +1,14 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-image: url('https://assets-global.website-files.com/63d9ce8458edcf65610de116/64c9252fe3c9acfd21bca745_ocr.jpg'); */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7; /* Set a light background color */
+}
+

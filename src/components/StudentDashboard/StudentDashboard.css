@@ -1,0 +1,20 @@
+.StudentDashboard {
+  /* Set background color */
+  background-color: #f8f8f8;
+  /* Set height to fill the viewport */
+  min-height: 100vh;
+  /* Ensure content is centered */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.StudentDashboardContent {
+  text-align: center;
+  color: #000; /* Update text color for better contrast */
+}
+
+.ChartContainer {
+  width: 80%; /* Adjust chart width based on your layout */
+  height: 400px; /* Set desired height for the chart */
+}
